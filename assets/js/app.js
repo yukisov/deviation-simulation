@@ -125,7 +125,7 @@
         }, objTmp),
         _.assign({
           value: (average + deviation) / 5,
-          label: { text: 'σ'}
+          label: { text: '+σ'}
         }, objTmp),
         _.assign({
           value: (average - 2 * deviation) / 5,
@@ -133,7 +133,7 @@
         }, objTmp),
         _.assign({
           value: (average + 2 * deviation) / 5,
-          label: { text: '2σ'}
+          label: { text: '+2σ'}
         }, objTmp)
       ];
 
