@@ -48,6 +48,13 @@ input[type="text"].parameters__amount {
   font-size: 100%;
   font-weight: bold;
   margin-bottom: 0;
+
+  &#amount-average {
+    color: $color1;
+  }
+  &#amount-deviation {
+    color: $color2;
+  }
 }
 
 .variablesDescription {
