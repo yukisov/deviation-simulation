@@ -267,6 +267,7 @@
 
     global.app.parameters.init();
     global.app.graph.render();
+    $(document).foundation();
 
   });
 

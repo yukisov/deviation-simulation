@@ -66,7 +66,8 @@ gulp.task('jsbuild', function() {
   gulp.src(paths.assets.js + 'app.js')
     .pipe(jshint())
     .pipe(addsrc.prepend([
-      paths.assets.module + 'foundation/js/foundation/foundation.js'
+      paths.assets.module + 'foundation/js/foundation/foundation.js',
+      paths.assets.module + 'foundation/js/foundation/foundation.tooltips.js'
     ]))
     .pipe(concat('app.js'))
     .pipe(gulp.dest(paths.js))

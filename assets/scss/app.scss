@@ -19,6 +19,10 @@ body {
 .parameters {
   margin-top: 15px;
   margin-bottom: 15px;
+  
+  .has-tip {
+    font-weight: normal;
+  }
 }
 
 .parameters__slider {
@@ -44,9 +48,6 @@ input[type="text"].parameters__amount {
   font-size: 100%;
   font-weight: bold;
   margin-bottom: 0;
-  &#amount-deviation {
-    margin-right: 57px;
-  }
 }
 
 .variablesDescription {
