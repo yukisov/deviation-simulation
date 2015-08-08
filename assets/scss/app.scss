@@ -43,8 +43,24 @@ input[type="text"].parameters__amount {
   width: 40px;
   font-size: 100%;
   font-weight: bold;
+  margin-bottom: 0;
+  &#amount-deviation {
+    margin-right: 57px;
+  }
 }
 
 .variablesDescription {
   margin-top: 15px;
+}
+
+@media only screen {
+  .parameters__label {
+    text-align: left;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .parameters__label {
+    text-align: right;
+  }
 }
