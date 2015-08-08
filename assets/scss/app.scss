@@ -40,7 +40,9 @@ body {
 input[type="text"].parameters__amount {
   display: inline-block;
   border: 0;
-  width: 30px;
+  width: 40px;
+  font-size: 100%;
+  font-weight: bold;
 }
 
 .variablesDescription {
