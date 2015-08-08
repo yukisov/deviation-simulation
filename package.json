@@ -1,0 +1,39 @@
+{
+  "name": "deviation-simulation",
+  "version": "1.0.0",
+  "description": "偏差値のシミュレーションを行う。",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "foundation": "^4.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-add-src": "^0.2.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-mocha": "^2.1.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-open": "^1.0.0",
+    "gulp-pleeease": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yukisov/deviation-simulation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukisov/deviation-simulation/issues"
+  },
+  "homepage": "https://github.com/yukisov/deviation-simulation#readme"
+}

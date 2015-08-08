@@ -1,0 +1,48 @@
+@import "../../node_modules/foundation/scss/normalize";
+@import "foundation";
+
+$color1: #008cba;
+$color2: #b80053;
+
+body {
+  margin:0 30px;
+}
+
+
+.footer {
+  border-top: solid 1px #eee;
+  margin-top: 30px;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+
+.parameters {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.parameters__slider {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+
+  &#slider-average {
+    .ui-slider-range { background: $color1; }
+    .ui-slider-handle { border-color: $color1; }
+  }
+
+  &#slider-deviation {
+    .ui-slider-range { background: $color2; }
+    .ui-slider-handle { border-color: $color2; }
+  }
+}
+
+input[type="text"].parameters__amount {
+  display: inline-block;
+  border: 0;
+  width: 30px;
+}
+
+.variablesDescription {
+  margin-top: 15px;
+}

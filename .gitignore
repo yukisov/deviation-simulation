@@ -1,2 +1,6 @@
 node_modules
 .idea
+assets/vendor/jquery-ui-1.11.4.custom
+public/css
+public/js/app.js
+public/js/app.min.js

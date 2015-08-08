@@ -1,0 +1,46 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "foundation/variables";
+
+// Foundation Components
+@import
+  "../../node_modules/foundation/scss/foundation/components/global",
+  "../../node_modules/foundation/scss/foundation/components/grid",
+  "../../node_modules/foundation/scss/foundation/components/visibility",
+  "../../node_modules/foundation/scss/foundation/components/block-grid",
+  "../../node_modules/foundation/scss/foundation/components/type",
+  "../../node_modules/foundation/scss/foundation/components/buttons",
+  "../../node_modules/foundation/scss/foundation/components/forms",
+  "../../node_modules/foundation/scss/foundation/components/custom-forms",
+  "../../node_modules/foundation/scss/foundation/components/button-groups",
+  "../../node_modules/foundation/scss/foundation/components/dropdown-buttons",
+  "../../node_modules/foundation/scss/foundation/components/split-buttons",
+  "../../node_modules/foundation/scss/foundation/components/flex-video",
+  "../../node_modules/foundation/scss/foundation/components/section",
+  "../../node_modules/foundation/scss/foundation/components/top-bar",
+  "../../node_modules/foundation/scss/foundation/components/orbit",
+  "../../node_modules/foundation/scss/foundation/components/reveal",
+  "../../node_modules/foundation/scss/foundation/components/joyride",
+  "../../node_modules/foundation/scss/foundation/components/clearing",
+  "../../node_modules/foundation/scss/foundation/components/alert-boxes",
+  "../../node_modules/foundation/scss/foundation/components/breadcrumbs",
+  "../../node_modules/foundation/scss/foundation/components/keystrokes",
+  "../../node_modules/foundation/scss/foundation/components/labels",
+  "../../node_modules/foundation/scss/foundation/components/inline-lists",
+  "../../node_modules/foundation/scss/foundation/components/pagination",
+  "../../node_modules/foundation/scss/foundation/components/panels",
+  "../../node_modules/foundation/scss/foundation/components/pricing-tables",
+  "../../node_modules/foundation/scss/foundation/components/progress-bars",
+  "../../node_modules/foundation/scss/foundation/components/side-nav",
+  "../../node_modules/foundation/scss/foundation/components/sub-nav",
+  "../../node_modules/foundation/scss/foundation/components/switch",
+  "../../node_modules/foundation/scss/foundation/components/magellan",
+  "../../node_modules/foundation/scss/foundation/components/tables",
+  "../../node_modules/foundation/scss/foundation/components/thumbs",
+  "../../node_modules/foundation/scss/foundation/components/tooltips",
+  "../../node_modules/foundation/scss/foundation/components/dropdown";
+
+
+

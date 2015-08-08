@@ -16,7 +16,8 @@
     "describe": false,
     "it": false,
     "beforeEach": false,
-    "expect": false
+    "expect": false,
+    "Highcharts": false
   },
   "multistr": true
 }
